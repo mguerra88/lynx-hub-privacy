@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Suporte – Lynx Hub App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f5f5f7;
+        --bg-card: #ffffff;
+        --text: #111111;
+        --text-muted: #555555;
+        --accent: #111111;
+        --border: #e0e0e0;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #050509;
+          --bg-card: #111118;
+          --text: #f5f5f7;
+          --text-muted: #a0a0b0;
+          --accent: #f5f5f7;
+          --border: #262637;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 24px 12px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        background: radial-gradient(circle at top, #222 0, var(--bg) 55%);
+        color: var(--text);
+        display: flex;
+        justify-content: center;
+      }
+
+      .card {
+        width: 100%;
+        max-width: 780px;
+        background-color: var(--bg-card);
+        border-radius: 16px;
+        padding: 28px 24px 24px;
+        box-shadow:
+          0 18px 45px rgba(0, 0, 0, 0.2),
+          0 0 0 1px var(--border);
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        margin: 0 0 4px;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px 10px;
+        border-radius: 999px;
+        font-size: 0.75rem;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        background: rgba(17, 17, 17, 0.06);
+        color: var(--text-muted);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .pill {
+          background: rgba(245, 245, 247, 0.08);
+        }
+      }
+
+      .meta {
+        margin-top: 4px;
+        font-size: 0.85rem;
+        color: var(--text-muted);
+      }
+
+      h2 {
+        font-size: 1.1rem;
+        margin-top: 24px;
+        margin-bottom: 8px;
+      }
+
+      p {
+        line-height: 1.6;
+        margin: 0 0 10px;
+      }
+
+      ul {
+        margin: 0 0 12px 1.2rem;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 4px;
+        line-height: 1.5;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .highlight {
+        padding: 10px 12px;
+        border-radius: 10px;
+        background: rgba(17, 17, 17, 0.04);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .highlight {
+          background: rgba(245, 245, 247, 0.06);
+        }
+      }
+
+      .footer {
+        margin-top: 20px;
+        padding-top: 12px;
+        border-top: 1px solid var(--border);
+        font-size: 0.8rem;
+        color: var(--text-muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <header>
+        <div class="pill">Suporte</div>
+        <br>
+        <br>
+        <h1>Lynx Hub App</h1>
+        <div class="meta">Última atualização: <strong>13 de Novembro de 2025</strong></div>
+        <br>
+        <br>
+      </header>
+
+      <section>
+        <p>
+          Bem-vindo à página de suporte da <strong>Lynx Hub App</strong>.
+          Esta aplicação é utilizada pelos membros do grupo de padel Wild
+          Lynxes para gerir perfis, jogos e estatísticas internas.
+        </p>
+        <p>
+          Se tiveres alguma dúvida, problema técnico ou sugestão de melhoria,
+          estamos disponíveis para ajudar.
+        </p>
+      </section>
+
+      <section>
+        <h2>Como pedir ajuda</h2>
+        <p>Podes entrar em contacto connosco por e-mail:</p>
+        <p class="highlight">
+          E-mail de suporte:
+          <strong><a href="mailto:mapg88@gmail.com">mapg88@gmail.com</a></strong>
+        </p>
+        <p>Ao enviares o pedido de suporte, tenta incluir:</p>
+        <ul>
+          <li>O e-mail com que entras na app;</li>
+          <li>O modelo do dispositivo (ex.: iPhone 13, Pixel 7, etc.);</li>
+          <li>Versão do sistema operativo (iOS/Android);</li>
+          <li>
+            Uma descrição breve do problema e, se possível, capturas de ecrã.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Problemas comuns</h2>
+        <h3>Não recebo o e-mail de login (magic link)</h3>
+        <ul>
+          <li>Confirma se o endereço de e-mail está escrito corretamente;</li>
+          <li>Verifica a pasta de Spam, Promoções ou Lixo;</li>
+          <li>
+            Se estiveres num ambiente de trabalho/empresa, o servidor pode estar
+            a bloquear o e-mail.
+          </li>
+        </ul>
+
+        <h3>A app está a crashar ou comportar-se de forma estranha</h3>
+        <ul>
+          <li>Fecha completamente a app e volta a abrir;</li>
+          <li>Garante que tens a versão mais recente instalada;</li>
+          <li>
+            Se o problema continuar, envia-nos uma descrição com capturas de
+            ecrã.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Sugestões e feedback</h2>
+        <p>
+          A Wild Lynxes App está em evolução constante. Se tiveres ideias para
+          novas funcionalidades, melhorias do layout ou estatísticas que gostavas
+          de ver, partilha connosco:
+        </p>
+        <p class="highlight">
+          Envia as tuas sugestões para:
+          <strong><a href="mailto:mapg88@gmail.com">mapg88@gmail.com</a></strong>
+        </p>
+      </section>
+
+      <div class="footer">
+        Obrigado por fazeres parte da comunidade Wild Lynxes.<br />
+        Responderemos ao teu pedido de suporte assim que possível.
+      </div>
+    </main>
+  </body>
+</html>
